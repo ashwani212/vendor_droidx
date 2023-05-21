@@ -28,9 +28,12 @@ DROIDX_DISPLAY_VERSION := $(PRODUCT_VERSION_MAJOR)-$(DROIDX_VERSION_SUFFIX)
 # Codename version
 DROIDX_DISPLAY_VERSION_CODENAME := 13-SkyLight
 
+DROIDX_VERSION_CODE := 1.3-skylight
+
 # Props
 PRODUCT_GENERIC_PROPERTIES += \
   ro.droidx.version=$(DROIDX_DISPLAY_VERSION_CODENAME) \
+  ro.droidx.version_code=$(DROIDX_VERSION_CODE) \
   ro.droidx.releasevarient=$(DROIDX_ZIP_TYPE) \
   ro.droidx.releasetype=$(DROIDX_BUILD_TYPE) \
   ro.droidx.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
